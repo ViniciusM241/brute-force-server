@@ -18,7 +18,7 @@ app.post('/', (req, res) => {
 app.post('/pagina2', (req, res) => {
   const { username, password } = req.body;
 
-  if (username === "maria" && password === "silva75mariajp") {
+  if (username === "paulo" && password === "joana0504") {
     res.send({ message: 'sucesso' });
   } else {
     res.send({ message: 'falha' });
